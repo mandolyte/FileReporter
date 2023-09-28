@@ -13,3 +13,17 @@ Note: 'hidden' means a prefix of a 'dot' (default false)
     	Number of go routines (default 20)
   -q	Suppress directory permission errors (default true)
 ```
+
+
+On a Chromebook, share with Linux your main folders on Google Drive. Afterwards, 
+you can go to the mount location and see them. For example:
+
+```
+$ pwd
+/mnt/chromeos/GoogleDrive/MyDrive
+$ pwd
+/mnt/chromeos/GoogleDrive/MyDrive
+$ ls
+Backup  Documents  Music  Pictures  Projects  Videos
+$ 
+```
