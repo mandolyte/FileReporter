@@ -27,3 +27,18 @@ $ ls
 Backup  Documents  Music  Pictures  Projects  Videos
 $ 
 ```
+
+Next build and run FileReporter:
+
+```
+$ go build FileReporter.go
+$ cp FileReporter ~/bin # somewhere on your path!
+$ cd /mnt/chromeos/GoogleDrive/MyDrive
+$ FileReporter . ~/gdrive.csv
+```
+
+You can a `tail` follow to track progress:
+
+```
+tail -f grive.csv
+```
